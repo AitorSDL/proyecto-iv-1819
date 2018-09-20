@@ -1,3 +1,5 @@
+# Objetivos primera semana
+
 
 ✓ Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
