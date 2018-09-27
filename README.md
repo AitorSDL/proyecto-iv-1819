@@ -7,7 +7,11 @@ Desarrollado por: Aitor Sarrionandia de León
 
 # Herramientas
 
-- Como lenguaje de programación emplearemos Python (aunque no del todo claro, igual empleamos Java).
+- Como lenguaje de programación emplearemos Python.
 - Para la BD utilizaremos PostGreSQL (no es definitivo).
 - Para editar texto utilizaremos Notepad++ o gedit.
 - Herramienta de desarrollo: Eclipse Neon
+
+# ¿Por qué este microservicio y estas herramientas?
+
+El manejo de artículos de tiendas, por muy genérico que sea siempre me ha parecido interesante y además he cursado anteriormente una asignatura en la que, mediante una herramienta para creación de servicios web (PrestaShop) pude crear mi propia tienda de ropa. Como lenguaje he escogido Python dado que me parece un lenguaje bastante interesante con mucho potencial y versatilidad.
