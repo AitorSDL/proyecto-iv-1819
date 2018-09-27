@@ -3,7 +3,7 @@ Este proyecto consistirá en el desarrollo de un microservicio de tienda de ropa
 
 Nombre de proyecto: Microservicio de manejo de almacén de tienda de ropa.
 
-Desarrollado por: Aitor Sarrionandia de León
+Desarrollado por: Aitor Sarrionandia de León.
 
 # Herramientas
 
