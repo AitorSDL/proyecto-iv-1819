@@ -10,7 +10,9 @@ Desarrollado por: Aitor Sarrionandia de León.
 - Como lenguaje de programación emplearemos Python 3.6.5 (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
 - Para la BD utilizaremos PostGreSQL (no es definitivo).
 - Para editar texto utilizaremos Notepad++ o gedit.
-- Herramienta de desarrollo: Eclipse Neon
+- Herramienta de desarrollo: Eclipse Neon.
+- Integración continua: Travis.
+- Tests: pytest.
 
 # ¿Por qué este microservicio y estas herramientas?
 
