@@ -1,0 +1,6 @@
+language: python
+
+rvm:
+  - 3.6.5
+  - flask
+  - pytest
