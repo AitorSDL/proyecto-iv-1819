@@ -7,7 +7,7 @@ Desarrollado por: Aitor Sarrionandia de León.
 
 # Herramientas
 
-- Como lenguaje de programación emplearemos Python.
+- Como lenguaje de programación emplearemos Python (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
 - Para la BD utilizaremos PostGreSQL (no es definitivo).
 - Para editar texto utilizaremos Notepad++ o gedit.
 - Herramienta de desarrollo: Eclipse Neon
