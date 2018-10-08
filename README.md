@@ -17,4 +17,4 @@ Desarrollado por: Aitor Sarrionandia de León.
 
 El manejo de artículos de tiendas, por muy genérico que sea siempre me ha parecido interesante y además he cursado anteriormente una asignatura en la que, mediante una herramienta para creación de servicios web (PrestaShop) pude crear mi propia tienda de ropa. Como lenguaje he escogido Python dado que me parece un lenguaje bastante interesante con mucho potencial y versatilidad.
 
-[![Build Status](https://travis-ci.org/aitorSDL/proyecto-iv-1819&branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
+[![Build Status](https://travis-ci.com/aitorSDL/proyecto-iv-1819.svg?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
