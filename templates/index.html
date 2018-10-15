@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="static/styles.css">
+	<title>Tienda de ropa</title>
+	<h1>My Elite Store</h1>
+	<a href="/"><img src="static/icon.png" width="100" height="100"></a>
+  </head>
+  <body>
+	<h2>¡Bienvenido {{user}}!</h2>
+	<div>
+	<p>Method?</p>
+	<form action="http://0.0.0.0:5000/pepe" method="GET">
+	<button type="submit" name="name" value="pepeGET">GET</button>
+	<button type="submit" formmethod="POST" name="name" value="pepePOST">POST</button>
+	</form>
+	</div>
+	<div>
+	<ul>
+	<li>
+      	<form action = "http://0.0.0.0:5000/login" method = "POST">
+        <p>Username: <input type = "text" name = "user" /></p>
+	<p>Password: <input type = "text" name = "pass" /></p>
+        <p><input type = "submit" value = "Login" /></p>
+      	</form>
+	</li>
+	<li>
+	<p><a href="http://0.0.0.0:5000/register">Registrarse</a></p>
+	</li>
+	</ul>
+	</div>
+	<div>
+	<form action="http://0.0.0.0:5000/">
+	<button type="submit">Logout</button>
+	</form>
+	</div>
+	<p>Autor: Aitor Sarrionandia de León<p/>
+  </body>
+</html>
