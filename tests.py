@@ -1,6 +1,3 @@
-import sys
-sys.path.insert(0, '/proyecto-iv-1819/src/')
-
 from main import ClothesHandler
 
 clothesManager = ClothesHandler()
