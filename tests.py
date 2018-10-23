@@ -12,6 +12,6 @@ class Tests(object):
     
   # Comprueba la función availablePiece
   def test_availablePiece(self):
-    assert clothesManager.availablePiece(001) == "ID válida."
+    assert clothesManager.availablePiece(1298347) == "ID válida."
     assert clothesManager.availablePiece("a0012l") == "ID de pieza inválida."
-    assert clothesManager.availablePiece(005) != "ID de pieza inválida."
+    assert clothesManager.availablePiece(111) != "ID de pieza inválida."
