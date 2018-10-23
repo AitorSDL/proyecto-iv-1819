@@ -12,3 +12,4 @@ class ClothesHandler:
         return "ID de pieza inválida."
     else:
         print("Buscando pieza...")
+        return "ID válida."
