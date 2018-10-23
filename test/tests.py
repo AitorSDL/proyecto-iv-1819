@@ -18,4 +18,3 @@ class Tests(object):
     assert clothesManager.availablePiece(001) == "ID válida."
     assert clothesManager.availablePiece("a0012l") == "ID de pieza inválida."
     assert clothesManager.availablePiece(005) != "ID de pieza inválida."
-
