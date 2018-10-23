@@ -1,0 +1,8 @@
+
+{
+  "status": "OK",
+  "var": {
+    "name": "/name/param",
+    "value": "{JSON: devuelto}"
+  }
+}
