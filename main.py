@@ -7,8 +7,8 @@ class ClothesHandler:
     else:
         return "Usuario OK."
       
-  def availablePiece(self,id)
-    if type(id) != int:
+  def availablePiece(self,pieceId)
+    if type(pieceId) != int:
         return "ID de pieza inválida."
     else:
         print("Buscando pieza...")
