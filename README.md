@@ -1,4 +1,7 @@
 # Tienda de ropa
+
+[![Build Status](https://travis-ci.com/aitorSDL/proyecto-iv-1819.svg?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
+
 Este proyecto consistirá en el desarrollo de un microservicio de tienda de ropa. El microservicio en cuestión se encargará de manejar el almacén de ropa manipulando los diferentes artículos presentes.
 
 Nombre de proyecto: Microservicio de manejo de almacén de tienda de ropa.
@@ -21,4 +24,8 @@ El manejo de artículos de tiendas, por muy genérico que sea siempre me ha pare
 
 El microservicio recibirá una solicitud con una determinada ID y devolverá el nombre (por ejemplo: Camiseta de manga larga roja), el tipo (Camiseta), el precio y la ID (que la hemos introducido nosotros para solicitar información sobre dicho objeto).
 
-[![Build Status](https://travis-ci.com/aitorSDL/proyecto-iv-1819.svg?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
+# Tests
+
+Los tests se realizarán con la librería de Python: pytest. Estos tests serán ejecutados por Travis-CI.
+
+
