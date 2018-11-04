@@ -28,4 +28,12 @@ El microservicio recibirá una solicitud con una determinada ID y devolverá el 
 
 Los tests se realizarán con la librería de Python: pytest. Estos tests serán ejecutados por Travis-CI.
 
+# Despliegue
 
+Para el despliegue de la aplicación a desarrollar emplearemos Heroku. Para ello hemos realizado los siguientes pasos:
+
+1. Creamos una cuenta en Heroku
+
+2. Creamos la app y le damos nombre
+
+3. Asociamos nuestra cuenta dee GitHub a Heroku y a partir de ahí desplegamos.
