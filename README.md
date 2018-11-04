@@ -11,10 +11,11 @@ Desarrollado por: Aitor Sarrionandia de León.
 # Herramientas
 
 - Como lenguaje de programación emplearemos Python 3.6.5 (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
-- Para la BD utilizaremos PostGreSQL (no es definitivo).
+- Para la BD utilizaremos MongoDB.
 - Para editar texto utilizaremos Notepad++ o gedit.
 - Integración continua: Travis.
 - Tests: pytest.
+- Despliegue: Heroku
 
 # ¿Por qué este microservicio y estas herramientas?
 
@@ -37,3 +38,5 @@ Para el despliegue de la aplicación a desarrollar emplearemos Heroku. Para ello
 2. Creamos la app y le damos nombre
 
 3. Asociamos nuestra cuenta dee GitHub a Heroku y a partir de ahí desplegamos.
+
+Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
