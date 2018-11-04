@@ -31,7 +31,9 @@ Los tests se realizarán con la librería de Python: pytest. Estos tests serán 
 
 # Despliegue
 
-Para el despliegue de la aplicación a desarrollar emplearemos Heroku. Para ello hemos realizado los siguientes pasos:
+En primer lugar, he de decir que la principal razón por la que he escogido Heroku es por la facilidad que ofrece a la hora de configurar la aplicación para su despliegue y, entre otras cosas, la amplia gama de documentación y tutoriales presentes por Internet.
+
+Para el despliegue de la aplicación a desarrollar hemos realizado los siguientes pasos:
 
 1. Creamos una cuenta en Heroku
 
@@ -40,3 +42,5 @@ Para el despliegue de la aplicación a desarrollar emplearemos Heroku. Para ello
 3. Asociamos nuestra cuenta dee GitHub a Heroku y a partir de ahí desplegamos.
 
 Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
+
+Para probar status.json entraremos a este [enlace](https://consultar-ropa.herokuapp.com/todo) o simplemente agregando /todo al final de la URL principal.
