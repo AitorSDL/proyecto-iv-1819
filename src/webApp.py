@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  return "TEST"
+  return "Bienvenido a la app de consulta de inventario de ropa. Para comprobar status.json acceda al directorio /todo"
   
 @app.route("/todo")
 def check():
