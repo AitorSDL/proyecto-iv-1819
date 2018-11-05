@@ -46,4 +46,5 @@ Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://consultar-ropa.herokuapp.com/)
 
 Despliegue https://consultar-ropa.herokuapp.com/
+
 Para probar status.json entraremos a este [enlace](https://consultar-ropa.herokuapp.com/todo) o simplemente agregando /todo al final de la URL principal.
