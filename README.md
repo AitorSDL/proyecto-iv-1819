@@ -1,6 +1,6 @@
 # Tienda de ropa
 
-[![Build Status](https://travis-ci.org/aitorSDL/proyecto-iv-1819.png?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
+[![Build Status](https://travis-ci.org/aitorSDL/proyecto-iv-1819.svg?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
 
 Este proyecto consistirá en el desarrollo de un microservicio de tienda de ropa. El microservicio en cuestión se encargará de manejar el almacén de ropa manipulando los diferentes artículos presentes.
 
