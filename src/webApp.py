@@ -3,7 +3,7 @@ from flask import Flask, json
 app = Flask(__name__)
 
 @app.route("/")
-def check():
+def index():
   with open('status.json') as f:
     data = json.load(f)
   response = app.response_class(
@@ -14,7 +14,7 @@ def check():
   return response
 
 @app.route("/todo")
-def index():
+def check():
   return "Bienvenido a la app de consulta de inventario de ropa. Para comprobar status.json acceda al directorio /todo"
   
 
