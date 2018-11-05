@@ -43,6 +43,6 @@ Para el despliegue de la aplicación a desarrollar hemos realizado los siguiente
 
 Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aitorSDL/proyecto-iv-1819)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://consultar-ropa.herokuapp.com/)
 
 Para probar status.json entraremos a este [enlace](https://consultar-ropa.herokuapp.com/todo) o simplemente agregando /todo al final de la URL principal.
