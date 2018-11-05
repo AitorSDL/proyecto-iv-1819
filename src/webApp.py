@@ -15,7 +15,7 @@ def index():
 
 @app.route("/todo")
 def check():
-  return "Bienvenido a la app de consulta de inventario de ropa. Para comprobar status.json acceda al directorio /todo"
+  return "TEST"
   
 
 if __name__ == '__main__':
