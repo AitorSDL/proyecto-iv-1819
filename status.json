@@ -1,7 +1,6 @@
 {
   "status": "OK",
-  "var": {
-    "ruta": "/ruta/param",
-    "valor": "{JSON: devuelto}"
-  }
+  "var": {"ruta": "/ruta/param",
+          "valor": "{JSON: devuelto}"
+         }
 }
