@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def check():
+  response = 0
   with open('status.json') as f:
     response = json.load(f)
   return response
