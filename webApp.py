@@ -1,5 +1,7 @@
 from flask import Flask, json
 
+app = Flask(__name__)
+
 @app.route("/")
 def check():
   
@@ -18,3 +20,6 @@ def check():
 @app.route("/todo")
 def index():
   return "TEST"
+
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
