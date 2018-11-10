@@ -1,4 +1,4 @@
-import json
+from flask import Flask, json
 
 @app.route("/")
 def check():
