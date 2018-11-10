@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
   
   with open('status.json') as f:
-    response = json.load(f)
+    data = json.load(f)
     
   response = app.response_class(
     response=json.dumps(data),
