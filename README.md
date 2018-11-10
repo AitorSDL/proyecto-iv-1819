@@ -41,6 +41,8 @@ Para el despliegue de la aplicación a desarrollar hemos realizado los siguiente
 
 3. Asociamos nuestra cuenta dee GitHub a Heroku y a partir de ahí desplegamos.
 
+4. Por último deberemos añadir "gunicorn" al fichero requirements.txt
+
 Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://consultar-ropa.herokuapp.com/)
