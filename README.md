@@ -54,3 +54,5 @@ Despliegue https://consultar-ropa.herokuapp.com/
 Como contenedor de la aplicación emplearemos DockerHub y una de las razones por las que lo he utilizado es por su sencillez a la hora de crear los automated build y su intuitiva configuración.
 
 Contenedor: 
+
+DockerHub: https://hub.docker.com/r/aitorsdl/proyecto-iv-1819/
