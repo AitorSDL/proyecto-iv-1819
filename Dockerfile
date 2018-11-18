@@ -1,6 +1,6 @@
 # Primero especificamos el lenguaje de programación que emplearemos y la versión
 
-FROM:python:3.6
+FROM python:3.6
 
 # Ahora indicamos el directorio de trabajo para la aplicación
 
