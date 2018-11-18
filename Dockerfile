@@ -8,7 +8,7 @@ WORKDIR /webapp
 
 # Después copiamos el contenido de este repositorio a lo que ahora es el directorio de trabajo
 
-COPY . /app
+COPY . /webapp
 
 # El siguiente paso es instalar las librerías necesarias de requirements.txt
 
