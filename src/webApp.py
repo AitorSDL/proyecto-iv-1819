@@ -20,7 +20,6 @@ def check():
   )
   
   return response
-
   
 
 if __name__ == '__main__':
