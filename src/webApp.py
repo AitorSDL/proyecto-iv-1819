@@ -5,6 +5,11 @@ app = Flask(__name__)
 @app.route("/")
 def index():
   
+    return "TEST"
+
+@app.route("/status")
+def check():
+  
   with open('status.json') as f:
     data = json.load(f)
     
@@ -16,9 +21,6 @@ def index():
   
   return response
 
-@app.route("/todo")
-def check():
-  return "TEST"
   
 
 if __name__ == '__main__':
