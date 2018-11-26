@@ -26,7 +26,9 @@ El microservicio recibirá una solicitud con una determinada ID y devolverá el 
 
 # Tests
 
-Los tests se realizarán con la librería de Python: pytest. Estos tests serán ejecutados por Travis-CI.
+Los tests se realizarán con la librería de Python: pytest. Estos tests serán ejecutados por Travis-CI. Para ejecutarlos, escribiremos esta orden:
+
+`pytest tests.py`
 
 # Despliegue
 
