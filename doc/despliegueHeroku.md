@@ -12,7 +12,7 @@ Como prerrequisito deberemos tener una cuenta en [Heroku](https://www.heroku.com
 
 `web: cd src && gunicorn webApp:app --log-file `
 
-Explicamos un poco las órdenes en el Procfile:
+Explicamos un poco las órdenes en el [Procfile](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/Procfile):
 
 `cd`: Como probablemente todos sepamos, esta orden nos cambia de directorio de trabajo, en este caso a 'src'.
 
