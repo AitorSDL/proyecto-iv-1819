@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/aitorSDL/proyecto-iv-1819.svg?branch=master)](https://travis-ci.org/aitorSDL/proyecto-iv-1819)
 
-Este proyecto consistirá en el desarrollo de un microservicio de tienda de ropa. El microservicio en cuestión se encargará de manejar el almacén de ropa manipulando los diferentes artículos presentes.
+Este proyecto consistirá en el desarrollo de un microservicio de tienda de ropa. El microservicio en cuestión se encargará de manejar el almacén de ropa manipulando los diferentes artículos presentes. Adem´as, para el desarrollo nos serviremos de servicios como Travis para la integración continua y Heroku como plataforma de despliegue de la aplicación, más adelante se detallan estos aspectos
 
 Nombre de proyecto: Microservicio de manejo de almacén de tienda de ropa.
 
@@ -12,7 +12,6 @@ Desarrollado por: Aitor Sarrionandia de León.
 
 - Como lenguaje de programación emplearemos Python 3.6.5 (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
 - Para la BD utilizaremos MongoDB.
-- Para editar texto utilizaremos Notepad++ o gedit.
 - Integración continua: Travis.
 - Tests: pytest.
 - Despliegue: Heroku
