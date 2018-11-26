@@ -30,17 +30,7 @@ Los tests se realizarán con la librería de Python: pytest. Estos tests serán 
 
 # Despliegue
 
-En primer lugar, he de decir que la principal razón por la que he escogido Heroku es por la facilidad que ofrece a la hora de configurar la aplicación para su despliegue y, entre otras cosas, la amplia gama de documentación y tutoriales presentes por Internet.
-
-Para el despliegue de la aplicación a desarrollar hemos realizado los siguientes pasos:
-
-1. Creamos una cuenta en Heroku
-
-2. Creamos la app y le damos nombre
-
-3. Asociamos nuestra cuenta dee GitHub a Heroku y a partir de ahí desplegamos.
-
-4. Por último deberemos añadir "gunicorn" al fichero requirements.txt
+En primer lugar, he de decir que la principal razón por la que he escogido Heroku es por la facilidad que ofrece a la hora de configurar la aplicación para su despliegue y, entre otras cosas, la amplia gama de documentación y tutoriales presentes por Internet. La documentación del despliegue a Heroku se encuentra [aquí](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/doc/despliegueHeroku.md).
 
 Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
