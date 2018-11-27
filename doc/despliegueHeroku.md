@@ -18,7 +18,7 @@ Explicamos un poco las órdenes en el [Procfile](https://github.com/aitorSDL/pro
 
 `gunicorn` : es el comando necesario para arrancar un servidor WSGI de Python y así ejecutar la aplicación web.
 
-`webApp:app` : indicamos el nombre del servicio.
+`webApp:app` : parámero perteneciente a la orden anterior, con él indicamos el nombre del servicio.
 
 Parámetro `--log-file`: Indica a bash que los logs producidos por las órdenes anteriores se escriban a un fichero.
 
