@@ -10,11 +10,15 @@ Como prerrequisito deberemos tener una cuenta en [Heroku](https://www.heroku.com
 
 3. Ahora, para que Heroku pueda desplegar nuestra aplicación necesitamos un fichero llamado Procfile en nuestro directorio en el repositorio de GitHub. En este fichero indicamos las órdenes y qué tipo de aplicación es:
 
-`web: cd src && gunicorn webApp:app --log-file `
+`web: gunicorn webApp:app --log-file `
 
 Explicamos un poco las órdenes en el [Procfile](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/Procfile):
 
-`cd`: Como probablemente todos sepamos, esta orden nos cambia de directorio de trabajo, en este caso a 'src'.
+`web:`: Indicamos el tipo de proceso del que se trata, declara que este proceso irá anclado a enrutamiento a http a Heroku y recibirá solicitudes web cuando sea desplegado
+
+`gunicorn` : es el comando necesario para arrancar un servidor WSGI de Python y así ejecutar la aplicación web.
+
+`webApp:app` : indicamos el nombre del servicio.
 
 Parámetro `--log-file`: Indica a bash que los logs producidos por las órdenes anteriores se escriban a un fichero.
 
