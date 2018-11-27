@@ -43,6 +43,7 @@ Despliegue https://consultar-ropa.herokuapp.com/
 Las rutas para probar la aplicación, de momento, son:
   
   `/status
+  
    /`
 
 # Contenedor
