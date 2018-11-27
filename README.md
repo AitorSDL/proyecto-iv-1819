@@ -40,6 +40,11 @@ Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
 Despliegue https://consultar-ropa.herokuapp.com/
 
+Las rutas para probar la aplicación, de momento, son:
+  
+  `/status
+   /`
+
 # Contenedor
 
 Como contenedor de la aplicación emplearemos DockerHub y una de las razones por las que lo he utilizado es por su sencillez a la hora de crear los automated build y su intuitiva configuración.
