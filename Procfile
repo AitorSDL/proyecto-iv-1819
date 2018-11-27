@@ -1,1 +1,1 @@
-web: cd src && gunicorn webApp:app --log-file -
+web: cd src && gunicorn webApp:app --log-file
