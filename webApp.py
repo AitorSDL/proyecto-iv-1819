@@ -3,6 +3,11 @@ from flask import Flask, json
 app = Flask(__name__)
 
 @app.route("/")
+def index():
+  
+    return "TEST"
+
+@app.route("/status")
 def check():
   
   with open('status.json') as f:
@@ -15,11 +20,7 @@ def check():
   )
   
   return response
-
   
-@app.route("/todo")
-def index():
-  return "TEST"
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
+  app.run(host='0.0.0.0', debug=True)
