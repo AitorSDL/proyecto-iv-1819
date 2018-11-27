@@ -11,10 +11,10 @@ Desarrollado por: Aitor Sarrionandia de León.
 # Herramientas
 
 - Como lenguaje de programación emplearemos Python 3.6.5 (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
-- Para la BD utilizaremos MongoDB.
-- Integración continua: Travis.
+- Integración continua Travis CI, elegido por su sencillez y porque es gratuito 
 - Tests: pytest.
-- Despliegue: Heroku
+- Despliegue: Heroku, elegido porque es gratuito, muy cómodo para trabajar y sencillo de entender.
+- Contenedor: DockerHub.
 
 # ¿Por qué este microservicio y estas herramientas?
 
