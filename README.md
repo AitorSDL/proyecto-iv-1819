@@ -11,6 +11,7 @@ Desarrollado por: Aitor Sarrionandia de León.
 # Herramientas
 
 - Como lenguaje de programación emplearemos Python 3.6.5 (Framework Flask mediante virtualenv para controlar actualizaciones de Python).  
+- Para base de datos emplearemos PostGreSQL o MongoDB.
 - Integración continua Travis CI, elegido por su sencillez y porque es gratuito 
 - Tests: pytest.
 - Despliegue: Heroku, elegido porque es gratuito, muy cómodo para trabajar y sencillo de entender.
