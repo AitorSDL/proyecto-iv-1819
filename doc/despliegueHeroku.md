@@ -1,5 +1,7 @@
 ## Despliegue de la aplicación en Heroku
 
+Despliegue https://consultar-ropa.herokuapp.com/status
+
 Para el despliegue de la aplicación hay que seguir unos pasos que explico a continuación.
 
 Como prerrequisito deberemos tener una cuenta en [Heroku](https://www.heroku.com/) a partir de ahí:
