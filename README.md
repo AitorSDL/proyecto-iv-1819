@@ -39,7 +39,7 @@ Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://consultar-ropa.herokuapp.com/)
 
-Despliegue https://consultar-ropa.herokuapp.com/
+Despliegue https://consultar-ropa.herokuapp.com/status
 
 Las rutas para probar la aplicación, de momento, son:
   
