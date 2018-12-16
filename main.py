@@ -13,3 +13,6 @@ class ClothesHandler:
     else:
         print("Buscando pieza...")
         return "ID válida."
+      
+  def randomPiece(self):
+    return "TODO"
