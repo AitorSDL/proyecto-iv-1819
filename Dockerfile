@@ -1,4 +1,5 @@
-# Primero especificamos el lenguaje de programación que emplearemos y la versión
+# Primero especificamos el lenguaje de programación que emplearemos y la versión, elijo esta imagen dado que
+# es la que he estado usando todo el tiempo y he decidido no actualizar para evitar posibles errores entree versiones
 
 FROM python:3.6
 
@@ -8,7 +9,11 @@ WORKDIR /webapp
 
 # Después copiamos el contenido de este repositorio a lo que ahora es el directorio de trabajo
 
-COPY . /webapp
+COPY ./src/ /webapp/src
+COPY ./test /webapp/test
+COPY ./webApp.py /webapp/
+COPY ./main.py /webapp/
+COPY ./status.json /webapp/
 
 # El siguiente paso es instalar las librerías necesarias de requirements.txt
 
