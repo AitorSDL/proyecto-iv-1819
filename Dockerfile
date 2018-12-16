@@ -26,4 +26,4 @@ EXPOSE 5000
 # Y por último, indicamos el comando para iniciar la aplicación y le nombre del fichero
 
 ENTRYPOINT ["python3"]
-CMD ["webApp.py"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "webApp:app"]
