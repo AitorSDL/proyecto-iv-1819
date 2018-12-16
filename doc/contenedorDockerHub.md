@@ -12,7 +12,7 @@ Ahora para que DockerHub realice la configuración para el contenedor deberemos 
 
 Así nos quedaría el Dockerfile:
 
-[![Captura-de-pantalla](https://i.postimg.cc/yNjJQ5tF/Captura-de-pantalla-de-2018-12-16-18-03-22.png)](https://postimg.cc/Y44qjXp9)
+[![Captura-de-pantalla-](https://i.postimg.cc/9QLSVP4y/Captura-de-pantalla-de-2018-12-16-18-20-37.png)](https://postimg.cc/nXQTGDGL)
 
 # Creación despliegue en Heroku para contenedor en DockerHub
 
