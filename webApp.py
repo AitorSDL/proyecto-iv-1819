@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
   
-    return "TEST"
+    return "¡Bienvenido!"
 
 @app.route("/status")
 def check():
@@ -20,6 +20,12 @@ def check():
   )
   
   return response
+
+@app.route("/random")
+  def randomItem():
+    
+    return "TODO"  
+  
   
 
 if __name__ == '__main__':
