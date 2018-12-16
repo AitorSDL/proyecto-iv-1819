@@ -10,7 +10,7 @@ WORKDIR /webapp
 # Después copiamos el contenido de este repositorio a lo que ahora es el directorio de trabajo
 
 COPY ./src/ /webapp/src
-COPY ./test /webapp/test
+COPY ./test/ /webapp/test
 COPY ./webApp.py /webapp/
 COPY ./main.py /webapp/
 COPY ./status.json /webapp/
