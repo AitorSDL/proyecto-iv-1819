@@ -22,7 +22,7 @@ def check():
   return response
 
 @app.route("/random")
-  def randomItem():
+def randomItem():
     
     return "TODO"  
   
