@@ -16,7 +16,7 @@ class ClothesHandler:
       
   def searchPiece(self, itemName):
     if type(itemName != string:
-            return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc.
+            return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
     else:
             print("Buscando artículo...")
             return "articulo"
