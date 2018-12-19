@@ -18,7 +18,7 @@ class Tests(object):
     
   # Comprueba la función searchItem
   def test_searchItem(self):
-    assert clothesManager.searchItem(111) == "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
-    assert clothesManager.searchItem("test") == "articulo"
-    assert clothesManager.searchItem("Test001") == "articulo"
-    assert clothesManager.searchItem(True) == "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
+    assert clothesManager.searchPiece(111) == "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
+    assert clothesManager.searchPiece("test") == "articulo"
+    assert clothesManager.searchPiece("Test001") == "articulo"
+    assert clothesManager.searchPiece(True) == "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
