@@ -15,7 +15,7 @@ class ClothesHandler:
         return "ID válida."
       
   def searchPiece(self, itemName):
-    if isinstance(itemName, str):
+    if not isinstance(itemName, str):
             return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
     else:
             print("Buscando artículo...")
