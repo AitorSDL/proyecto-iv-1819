@@ -49,9 +49,10 @@ Las rutas para probar la aplicación, de momento, son:
 
 # Contenedor
 
-Como contenedor de la aplicación emplearemos DockerHub y una de las razones por las que lo he utilizado es por su sencillez a la hora de crear los automated build y su intuitiva configuración. Toda la documentación acerca de cómo hemos conseguido el uso de DockerHub se encuentra [aquí](https://github.com/aitorSDL/proyecto-iv-1819/doc/contenedorDockerHub.md)
 
 Contenedor: https://dockerhub-webapp.herokuapp.com/
+
+Como contenedor de la aplicación emplearemos DockerHub y una de las razones por las que lo he utilizado es por su sencillez a la hora de crear los automated build y su intuitiva configuración. Toda la documentación acerca de cómo hemos conseguido el uso de DockerHub se encuentra [aquí](https://github.com/aitorSDL/proyecto-iv-1819/doc/contenedorDockerHub.md)
 
 DockerHub: https://hub.docker.com/r/aitorsdl/proyecto-iv-1819/
 
