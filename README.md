@@ -35,7 +35,7 @@ Los tests se realizarán con la librería de Python: pytest. Estos tests serán 
 
 Despliegue https://consultar-ropa.herokuapp.com/status 
 
-En primer lugar, he de decir que la principal razón por la que he escogido Heroku es por la facilidad que ofrece a la hora de configurar la aplicación para su despliegue y, entre otras cosas, la amplia gama de documentación y tutoriales presentes por Internet. La documentación del despliegue a Heroku se encuentra [aquí](https://github.com/aitorSDL/proyecto-iv-1819/doc/despliegueHeroku.md). La explicación acerca del fichero Procfile se encuentra en ese mismo fichero.
+En primer lugar, he de decir que la principal razón por la que he escogido Heroku es por la facilidad que ofrece a la hora de configurar la aplicación para su despliegue y, entre otras cosas, la amplia gama de documentación y tutoriales presentes por Internet. La documentación del despliegue a Heroku se encuentra [aqui](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/doc/despliegueHeroku.md) La explicación acerca del fichero Procfile se encuentra en ese mismo fichero.
 
 Enlace a la app: [Consultar ropa](https://consultar-ropa.herokuapp.com/)
 
