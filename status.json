@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "var": {"ruta": "/ruta/param",
-          "valor": "{JSON: devuelto}"
+  "ejemplo": {"ruta": "/status",
+          "valor": "OK"
          }
 }
