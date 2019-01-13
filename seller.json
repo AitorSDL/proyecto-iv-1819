@@ -3,6 +3,7 @@
     "00771": { 
         "color": "rojo", 
         "articulo": "camiseta", 
-        "talla": "L"
+        "talla": "L",
+        "precio": "5€"
     }
 }
