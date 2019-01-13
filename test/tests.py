@@ -22,3 +22,10 @@ class Tests(object):
     assert clothesManager.searchPiece("test") == "articulo"
     assert clothesManager.searchPiece("Test001") == "articulo"
     assert clothesManager.searchPiece(True) == "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
+    
+  # Comprueba que las funciones devuelvan el tipo correcto
+  def test_correctType(self):
+    assert isinstance(clothesManager.availablePiece(0012),str)
+    assert isinstance(clothesManager.searchPiece(0012),str)
+    assert isinstance(clothesManager.availablePiece("0012"),str)
+    assert isinstance(clothesManager.searchPiece("0012"),str)
