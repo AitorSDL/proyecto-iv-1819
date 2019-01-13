@@ -23,7 +23,7 @@ El manejo de artículos de tiendas, por muy genérico que sea siempre me ha pare
 
 # ¿Qué hace el microservicio?
 
-El microservicio recibirá una solicitud con una determinada ID y devolverá el nombre (por ejemplo: Camiseta de manga larga roja), el tipo (Camiseta), el precio y la ID (que la hemos introducido nosotros para solicitar información sobre dicho objeto).
+El microservicio recibirá una solicitud con una determinada ID y devolverá la ID, el nombre del artículo (Camiseta), el precio, la talla y el color.
 
 # Tests
 
