@@ -25,7 +25,7 @@ class Tests(object):
     
   # Comprueba que las funciones devuelvan el tipo correcto
   def test_correctType(self):
-    assert isinstance(clothesManager.availablePiece(0012),str)
-    assert isinstance(clothesManager.searchPiece(0012),str)
+    assert isinstance(clothesManager.availablePiece(01012),str)
+    assert isinstance(clothesManager.searchPiece(01012),str)
     assert isinstance(clothesManager.availablePiece("0a012"),str)
     assert isinstance(clothesManager.searchPiece("0a012"),str)
