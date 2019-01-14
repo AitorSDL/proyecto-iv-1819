@@ -18,6 +18,11 @@ Ahora explicaremos por qué estas órdenes:
 
 En primer lugar, uso esta versión de python porque es la que uso desde que empecé el proyecto y no he querido cambiar de versión por cuestiones de comodidad y prevención de errores por cambio de versión. En segundo lugar, creo el directorio de trabajo de la aplicación y copio solo los archivos necesarios, que son los ficheros python necesarios para la aplicación, los tests, para que se lleven a cabo también en el contenedor y el archivo .json que se usa en la ruta /status. En tercer lugar, instalo las bibliotecas necesarias mediante el archivo `requirement.tx`, a continuación abro el puerto 5000 que es por el que se lanzará la aplicación. Por último indicamos la orden que deberá ejecutar el contenedor la cual es `gunicorn`.
 
+Creamos la imagen en local mediante la siguiente orden:
+
+[![Captura-de-pantalla-de-2019-01-14-19-00-40.png](https://i.postimg.cc/zDj7ptTQ/Captura-de-pantalla-de-2019-01-14-19-00-40.png)](https://postimg.cc/CdRbx4PC)
+[![Captura-de-pantalla-de-2019-01-14-19-00-53.png](https://i.postimg.cc/MHFjNQ6n/Captura-de-pantalla-de-2019-01-14-19-00-53.png)](https://postimg.cc/fSYL0k0s)
+[![Captura-de-pantalla-de-2019-01-14-19-01-05.png](https://i.postimg.cc/MHvn7p7q/Captura-de-pantalla-de-2019-01-14-19-01-05.png)](https://postimg.cc/7JrPDDtW)
 # Creación despliegue en Heroku para contenedor en DockerHub
 
 Ahora crearemos la aplicación en Heroku como hemos explicado en la [documentación](proyecto-iv-1819/doc/despliegueHeroku.md) de la que disponemos de Heroku. Esta vez necesitaremos unos breves pasos más dado que esta vez alojaremos un contenedor.
