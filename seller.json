@@ -1,8 +1,10 @@
 {
     "status": "OK",
-    "00771": { 
-        "color": "rojo", 
+    "{ 
+        "id": "00771",
         "articulo": "camiseta", 
+        "marca":"Nike",
+        "color": "rojo",         
         "talla": "L",
         "precio": "5€"
     }
