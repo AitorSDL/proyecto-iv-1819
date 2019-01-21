@@ -1,11 +1,18 @@
-{
-    "status": "OK",
+[
     { 
         "id": "00771",
         "articulo": "camiseta", 
         "marca":"Nike",
         "color": "rojo",         
         "talla": "L",
-        "precio": "5€"
+        "precio": "15€"
+    },
+    {
+        "id": "00772",
+        "articulo": "pantalon", 
+        "marca":"Adidas",
+        "color": "negro",         
+        "talla": "XL",
+        "precio": "35€"
     }
-}
+]
