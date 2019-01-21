@@ -1,6 +1,18 @@
 
 class ClothesHandler:
   
+  def item(self, item_id, title, price, colour):
+    self.item_id = item_id
+    self.title = title
+    self.price = price
+    self.colour = colour
+    
+  def item_none(self):
+    self.item_id = None
+    self.title = None
+    self.price = None
+    self.colour = None
+    
   def login(self,user,passwd):
     if type(user) != str or type(passwd) != str:
         return "El usuario no existe."
