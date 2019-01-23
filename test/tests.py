@@ -29,3 +29,11 @@ class Tests(object):
     assert isinstance(clothesManager.searchPiece(111),str)
     assert isinstance(clothesManager.availablePiece("0a012"),str)
     assert isinstance(clothesManager.searchPiece("0a012"),str)
+
+  def test_jsonType(self):
+    json_data = clothesManager.randomItem()
+    assert 'items' in json_data
+    assert 'id' in json_data
+    assert 'articulo' in json_data
+    assert 'marca' in json_data
+    assert 'color' in json_data
