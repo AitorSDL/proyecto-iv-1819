@@ -36,5 +36,4 @@ class ClothesHandler:
       return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
     else:
       print("Buscando artículo...")
-      return "articulo"
-          
+      return "articulo"          
