@@ -1,18 +1,35 @@
-
 class ClothesHandler:
   
+  def item(self, item_id, title, price, colour):
+    self.item_id = item_id
+    self.title = title
+    self.price = price
+    self.colour = colour
+    
+  def item_none(self):
+    self.item_id = None
+    self.title = None
+    self.price = None
+    self.colour = None
+    
   def login(self,user,passwd):
     if type(user) != str or type(passwd) != str:
-      return "El usuario no existe."
+        return "El usuario no existe."
     else:
-      return "Usuario OK."
+        return "Usuario OK."
       
   def availablePiece(self,pieceId):
     if type(pieceId) != int:
-      return "ID de pieza inválida."
+        return "ID de pieza inválida."
     else:
-      print("Buscando pieza...")
-      return "ID válida."
+        print("Buscando pieza...")
+        return "ID válida."
+      
+  def randomItem(self):
+    with open('seller.json') as f:
+      data = json.load(f)
+      
+    return jsonify(data)
       
   def searchPiece(self, itemName):
     if not isinstance(itemName, str):
@@ -20,3 +37,4 @@ class ClothesHandler:
     else:
       print("Buscando artículo...")
       return "articulo"
+          
