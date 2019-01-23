@@ -32,8 +32,9 @@ class Tests(object):
 
   def test_jsonType(self):
     json_data = clothesManager.randomItem()
-    assert 'precio' in json_data
-    assert 'id' in json_data
-    assert 'articulo' in json_data
-    assert 'marca' in json_data
-    assert 'color' in json_data
+    item = json_data[0]
+    assert 'precio' in item
+    assert 'id' in item
+    assert 'articulo' in item
+    assert 'marca' in item
+    assert 'color' in item
