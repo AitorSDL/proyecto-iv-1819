@@ -26,10 +26,16 @@ class ClothesHandler:
         print("Buscando pieza...")
         return "ID válida."
       
+  def randomItem(self):
+    with open('seller.json') as f:
+      data = json.load(f)
+      
+    return jsonify(data)
+      
   def searchPiece(self, itemName):
     if not isinstance(itemName, str):
-            return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
+      return "Debe escribir un nombre de artículo. Ejemplo: camiseta, pantalón, etc."
     else:
-            print("Buscando artículo...")
-            return "articulo"
+      print("Buscando artículo...")
+      return "articulo"
           
