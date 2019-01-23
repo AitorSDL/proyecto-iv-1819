@@ -1,5 +1,4 @@
 from src.main import ClothesHandler
-from flask import json
 
 clothesManager = ClothesHandler()
 
