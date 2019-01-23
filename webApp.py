@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  with open('seller.json') as f:
+  with open('status.json') as f:
     data = json.load(f)
   
   response = app.response_class(
