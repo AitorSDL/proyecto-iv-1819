@@ -31,7 +31,7 @@ class ClothesHandler:
     with open('seller.json') as f:
       data = json.load(f)
       
-    return jsonify(data)
+    return data
       
   def searchPiece(self, itemName):
     if not isinstance(itemName, str):
