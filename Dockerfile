@@ -11,7 +11,6 @@ WORKDIR /webapp
 
 COPY ./src/ /webapp/src
 COPY ./test/ /webapp/test
-COPY ./webApp.py /webapp/
 COPY ./main.py /webapp/
 COPY ./status.json /webapp/
 
