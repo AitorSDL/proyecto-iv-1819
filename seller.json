@@ -1,6 +1,14 @@
 {
   "status": "OK",
-  "rutas": {"valor": "/status",
-            "status": "OK"
-           }
+  "indice": [
+              {"ruta": "/status",
+               "valor": "OK"
+              },
+              {"ruta": "/warehouse",
+               "valor": "OK"
+              },
+              {"ruta": "/",
+               "valor": "OK"                
+              }
+            ]
 }
