@@ -4,7 +4,7 @@
              {"valor": "/status",
                  "status": "OK"
              },
-             {"valor": "/warehouse"
+             {"valor": "/warehouse",
                  "status": "OK"
              }
            ]
