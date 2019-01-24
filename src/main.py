@@ -28,7 +28,7 @@ class ClothesHandler:
         return "ID válida."
       
   def randomItem(self):
-    with open('seller.json') as f:
+    with open('warehouse.json') as f:
       data = json.load(f)
       
     return data
