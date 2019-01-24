@@ -1,11 +1,11 @@
 {
   "status": "OK",
   "rutas": [
-           {"valor": "/status",
-               "status": "OK"
-           },
-           {"valor": "/warehouse"
-             "status": "OK"
-           }
+             {"valor": "/status",
+                 "status": "OK"
+             },
+             {"valor": "/warehouse"
+                 "status": "OK"
+             }
            ]
 }
