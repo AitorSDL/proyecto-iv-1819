@@ -11,7 +11,7 @@ WORKDIR /webapp
 
 COPY ./src/ /webapp/src
 COPY ./test/ /webapp/test
-COPY ./main.py /webapp/
+COPY ./webApp.py /webapp/
 COPY ./status.json /webapp/
 
 # El siguiente paso es instalar las librerías necesarias de requirements.txt
