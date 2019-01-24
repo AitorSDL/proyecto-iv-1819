@@ -45,7 +45,9 @@ Las rutas para probar la aplicación, de momento, son:
   
   `/status`
   
-   `/`
+   `/` : Devuelve las rutas disponibles contenidas en `seller.json`
+   
+   `/warehouse` : Devuelve todos los items disponibles, contenidos en el fichero `warehouse.json`
 
 # Contenedor
 
