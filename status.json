@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "getItem": {"ruta": "/status",
+  "status": {"ruta": "/status",
           "valor": "OK"
          }
 }
