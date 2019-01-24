@@ -13,6 +13,8 @@ COPY ./src/ /webapp/src
 COPY ./test/ /webapp/test
 COPY ./webApp.py /webapp/
 COPY ./status.json /webapp/
+COPY ./seller.json /webapp/
+COPY ./warehouse.json /webapp/
 
 # El siguiente paso es instalar las librerías necesarias de requirements.txt
 
