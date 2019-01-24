@@ -6,6 +6,9 @@
               },
               {"ruta": "/warehouse",
                "valor": "OK"
-             º}
+              },
+              {"ruta": "/",
+               "valor": "OK"                
+              }
             ]
 }
