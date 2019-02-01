@@ -16,6 +16,7 @@ Desarrollado por: Aitor Sarrionandia de León.
 - Tests: pytest.
 - Despliegue: Heroku, elegido porque es gratuito, muy cómodo para trabajar y sencillo de entender.
 - Contenedor: DockerHub.
+- Despliegue en nube: Microsoft Azure
 
 # ¿Por qué este microservicio y estas herramientas?
 
