@@ -4,24 +4,24 @@
   
   tasks:
     - name: Install Git
-    apt:
-      name: git
-      state: present
+      apt:
+        name: git
+        state: present
       
     - name: Install Python3.6
-    apt:
-      name: python3.6
-      state: present
+      apt:
+        name: python3.6
+        state: present
       
     - name: Install pip3
-    apt:
-      pkg: python3-pip
-      state: present
+      apt:
+        pkg: python3-pip
+        state: present
       
     - name: Clone repository
-    git:
-      repo: https://github.com/aitorSDL/proyecto-iv-1819
-      dest: proyecto-iv-1819/
+      git:
+        repo: https://github.com/aitorSDL/proyecto-iv-1819
+        dest: proyecto-iv-1819/
       
     -name: Install requirements
-    command: pip3 install -r requirements.txt
+      command: pip3 install -r requirements.txt
