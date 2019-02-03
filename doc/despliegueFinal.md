@@ -11,7 +11,7 @@ Para una información mas detallada sobre el fichero, pinche [aqui]().
 
 Tras esto, deberemos indicar en el fichero `hosts`, localizado en la ruta `etc/ansible`, quienes utilizarán nuestro fichero. En nuestro caso quedaría así:
 
-[![Captura-de-pantalla-de-2019-02-03-17-24-10.png](https://i.postimg.cc/DyzXYJ10/Captura-de-pantalla-de-2019-02-03-17-24-10.png)](https://postimg.cc/8sqc7CKg)
+[![Captura-de-pantalla-de-2019-02-03-18-22-13.png](https://i.postimg.cc/3NQPx0HH/Captura-de-pantalla-de-2019-02-03-18-22-13.png)](https://postimg.cc/8Jwyy55y)
 
 Si quisiésemos, podríamos cambiar el DNS indicado por la IP correspondiente.
 
