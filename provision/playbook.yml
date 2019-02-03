@@ -3,6 +3,15 @@
   remote_user: vagrant          # Será vagrant el que utilice este archivo
   
   tasks:
+  
+    - name: Update package list
+      command: sudo apt-get update
+      
+    - name: Add Python3.6 repository
+      apt: 
+        repo: ppa:/deadsnakes/ppa
+        state: present
+        
     - name: Install Git
       apt:
         name: git
