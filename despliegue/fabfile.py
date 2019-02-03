@@ -5,7 +5,7 @@ def init_service():
 
      # Iniciamos el servicio web
     
-     run('cd proyecto-iv-1819/ && sudo gunicorn app:__hug_wsgi__ -b 0.0.0.0:80')
+     run('cd proyecto-iv-1819/ && sudo gunicorn webApp:app -b 0.0.0.0:80')
       
       
 def update_service():
