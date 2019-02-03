@@ -33,4 +33,4 @@
         dest: proyecto-iv-1819/
       
     -name: Install requirements
-      command: pip3 install -r requirements.txt
+      command: pip3 install -r proyecto-iv-1819/requirements.txt
