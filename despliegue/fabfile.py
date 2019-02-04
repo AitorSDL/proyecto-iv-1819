@@ -9,9 +9,9 @@ def init_service():
       
       
 def update_service():
-
-    # Eliminamos la instalación actual para prevenir posible problemas
-    run('rm -rf proyecto-iv-1819')
+    
+    # Primero eliminamos los ficheros para prevenir problemas
+    remove_service()
 
     # Descargamos desde el repositorio
     run('git clone https://github.com/AitorSDL/proyecto-iv-1819.git')
@@ -25,3 +25,8 @@ def stop_service():
 
     run('service gunicorn stop')
 
+def remove_service():
+    
+    # Eliminamos por completo el servicio
+    
+    run('rm -rf proyecto-iv-1819')
