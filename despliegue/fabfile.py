@@ -18,5 +18,10 @@ def update_service():
 
     # Instalamos las dependencias mediante el fichero requirements.txt
     run('pip3 install -r proyecto-iv-1819/requirements.txt')
+     
+def stop_service():
+     
+    # Paramos el servicio web
 
+    run('service gunicorn stop')
 
