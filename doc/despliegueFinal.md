@@ -7,7 +7,7 @@ Para el provisionamiento tendremos que crear el fichero `playbook.yml`, y se enc
 
 [![Captura-de-pantalla-de-2019-02-03-17-15-47.png](https://i.postimg.cc/0QrzXp1C/Captura-de-pantalla-de-2019-02-03-17-15-47.png)](https://postimg.cc/r0XyKRmd)
 
-Para una información mas detallada sobre el fichero, pinche [aqui]().
+Para una información mas detallada sobre el fichero, pinche [aqui](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/doc/playbookDoc.md).
 
 Tras esto, deberemos indicar en el fichero `hosts`, localizado en la ruta `etc/ansible`, quienes utilizarán nuestro fichero. En nuestro caso quedaría así:
 
@@ -62,4 +62,4 @@ En **primer lugar**, deberemos crear el fichero `fabfile.py` el cual estará loc
 
 [![Captura-de-pantalla-de-2019-02-05-13-04-16.png](https://i.postimg.cc/7bvrGnxG/Captura-de-pantalla-de-2019-02-05-13-04-16.png)](https://postimg.cc/5QmRDvQb)
 
-Este fichero contendrá unas órdenes muy simples (aunque podemos añadirle las funciones que queramos) ya que solo queremos utilizarlo para levantar el servicio, detenerlo, eliminarlo y actualizarlo. Para ejecutar una función de este fichero en el terminal, basta con escribir: `fab -f despliegue/fabfile.py -H vagrant@<nombrededominio.com> <funcion>`. Cabe decir que las funciones las escribiremos como `init_service` y no `init_service()`.
+Este fichero contendrá unas órdenes muy simples (aunque podemos añadirle las funciones que queramos) ya que solo queremos utilizarlo para levantar el servicio, detenerlo, eliminarlo y actualizarlo. Para ejecutar una función de este fichero en el terminal, basta con escribir: `fab -f despliegue/fabfile.py -H vagrant@<nombrededominio.com> <funcion>`. Cabe decir que las funciones las escribiremos como `init_service` y no `init_service()`. Las funciones del `fabfily.py` son órdenes de bash por lo que las obviaremos.
