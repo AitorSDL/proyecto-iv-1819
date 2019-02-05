@@ -44,7 +44,7 @@ En el **cuarto paso** trataremos la creación del Vagrantfile, este fichero ser�
 
 [![Captura-de-pantalla-de-2019-02-03-17-52-44.png](https://i.postimg.cc/QxfbnZPg/Captura-de-pantalla-de-2019-02-03-17-52-44.png)](https://postimg.cc/ZCypC2J0)
 
-Para información más detallada acerca de nuestro Vagrantfile, pinche [aqui]().
+Para información más detallada acerca de nuestro Vagrantfile, pinche [aqui](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/doc/vagrantfileDoc.md).
 
 Como **quinto paso** instalaremos el plugin de Vagrant y Azure con la orden `vagrant plugin install vagrant-azure`. Y a continuación, ya estamos preparados para la creación de la máquina virtual, y escribimos en el terminal: `vagrant up --provider=azure`. Si todo ha ido bien, deberíamos ya tener la máquina virtual creada y los paquetes especificados en el `playbook.yml` instalado. Ya podemos comprobar el funcionamiento de la máquina virtual mediante **SSH**, escribimos en el terminal `vagrant ssh`:
 
