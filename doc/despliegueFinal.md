@@ -17,6 +17,7 @@ Si quisiésemos, podríamos cambiar el DNS indicado por la IP correspondiente.
 
 Hecho esto, hemos concluido con la etapa de provisionamiento de la máquina virtual.
 
+
 ## 2. Creación de la máquina virtual con Microsoft Azure y Vagrant.
 
 Una vez tenemos creado el fichero que servirá para la provisión de la máquina virtual, procedemos a la creación de la misma.
@@ -51,6 +52,7 @@ Como **quinto paso** instalaremos el plugin de Vagrant y Azure con la orden `vag
 [![Captura-de-pantalla-de-2019-02-03-18-01-19.png](https://i.postimg.cc/Y91NNhTR/Captura-de-pantalla-de-2019-02-03-18-01-19.png)](https://postimg.cc/DJwbnyv4)
 
 Y ya hemmos terminado con la segunda etapa de nuestro despliegue.
+
 
 ## 3. Despliegue con Fabric.
 
