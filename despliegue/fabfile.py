@@ -10,13 +10,10 @@ def init_service():
       
 def update_service():
     
-    # Primero eliminamos los ficheros para prevenir problemas
-    remove_service()
-
     # Descargamos desde el repositorio
-    run('git clone https://github.com/AitorSDL/proyecto-iv-1819.git')
+    run('git pull origin master')
 
-    # Instalamos las dependencias mediante el fichero requirements.txt
+    # Instalamos las dependencias mediante el fichero requirements.txt por si acaso hayan cambiado
     run('pip3 install -r proyecto-iv-1819/requirements.txt')
      
 def stop_service():
