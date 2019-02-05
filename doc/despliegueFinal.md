@@ -58,6 +58,6 @@ Para poder agilizar el despliegue de la aplicación, nos hemos servido de **Fabr
 
 En **primer lugar**, deberemos crear el fichero `fabfile.py` el cual estará localizado en la ruta `despliegue/`. Nuestro fichero quedará así:
 
-[![Captura-de-pantalla-de-2019-02-03-18-11-59.png](https://i.postimg.cc/BvtPQXqb/Captura-de-pantalla-de-2019-02-03-18-11-59.png)](https://postimg.cc/sBdgTfGC)
+[![Captura-de-pantalla-de-2019-02-05-13-04-16.png](https://i.postimg.cc/7bvrGnxG/Captura-de-pantalla-de-2019-02-05-13-04-16.png)](https://postimg.cc/5QmRDvQb)
 
-Este fichero contendrá unas órdenes muy simples (aunque podemos añadirle las funciones que queramos) ya que solo queremos utilizarlo para levantar el servicio y para actualizarlo. Para ejecutar una función de este fichero en el terminal, basta con escribir: `fab -f despliegue/fabfile.py -H vagrant@<nombrededominio.com> <funcion>`. Cabe decir que las funciones las escribiremos como `init_service` y no `init_service()`.
+Este fichero contendrá unas órdenes muy simples (aunque podemos añadirle las funciones que queramos) ya que solo queremos utilizarlo para levantar el servicio, detenerlo, eliminarlo y actualizarlo. Para ejecutar una función de este fichero en el terminal, basta con escribir: `fab -f despliegue/fabfile.py -H vagrant@<nombrededominio.com> <funcion>`. Cabe decir que las funciones las escribiremos como `init_service` y no `init_service()`.
