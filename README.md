@@ -66,4 +66,4 @@ Hemos utilizado la herramienta de Microsoft Azure para el despliegue, Ansible pa
 
 Despliegue final: http://azurevm-proyecto.westeurope.cloudapp.azure.com/
 
-IP pública: 13.69.81.51
+IP pública: 13.94.168.251
