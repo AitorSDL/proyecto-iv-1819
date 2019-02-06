@@ -18,10 +18,7 @@ def index():
 
 @app.route("/status")
 def check():
-  with open('status.json') as f:
-    data = json.load(f)
-  
-  return data
+  return jsonify({'status': 'OK'})
   
 @app.route("/warehouse")
 def item_list():
