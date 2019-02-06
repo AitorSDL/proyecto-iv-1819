@@ -18,7 +18,7 @@ def index():
 
 @app.route("/status")
 def check():
-  return jsonify(status: 'OK')
+  return jsonify(status=OK)
   
 @app.route("/warehouse")
 def item_list():
