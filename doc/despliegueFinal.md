@@ -63,3 +63,7 @@ En **primer lugar**, deberemos crear el fichero `fabfile.py` el cual estará loc
 [![Captura-de-pantalla-de-2019-02-05-13-04-16.png](https://i.postimg.cc/7bvrGnxG/Captura-de-pantalla-de-2019-02-05-13-04-16.png)](https://postimg.cc/5QmRDvQb)
 
 Este fichero contendrá unas órdenes muy simples (aunque podemos añadirle las funciones que queramos) ya que solo queremos utilizarlo para levantar el servicio, detenerlo, eliminarlo y actualizarlo. Para ejecutar una función de este fichero en el terminal, basta con escribir: `fab -f despliegue/fabfile.py -H vagrant@<nombrededominio.com> <funcion>`. Cabe decir que las funciones las escribiremos como `init_service` y no `init_service()`. Las funciones del `fabfily.py` son órdenes de bash por lo que las obviaremos.
+
+## Posibles errores encontrados
+
+En mi caso, tuve que borrar la máquina virtual desde Azure y al volver a crearla después me daba un error relacionado con la clave del host al momento de conectarme mediante SSH. Si te ocurre lo mismo, ve al fichero `~/.ssh/known_hosts` y borra la clave almacenada en el fichero. Tras esto ya deberías poder conectarte. Solución al error encontrada en: https://github.com/ansible/ansible/issues/12922
