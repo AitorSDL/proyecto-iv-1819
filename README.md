@@ -64,4 +64,4 @@ DockerHub: https://hub.docker.com/r/aitorsdl/proyecto-iv-1819/
 
 Hemos utilizado la herramienta de Microsoft Azure para el despliegue, Ansible para el provisionamiento y Fabric para la automatización del despliegue. Mas documentación acerca de esta última fase [aqui](https://github.com/aitorSDL/proyecto-iv-1819/blob/master/doc/despliegueFinal.md).
 
-Despliegue final: azurevm-proyecto.westeurope.cloudapp.azure.com/status
+Despliegue final: azurevm-proyecto.westeurope.cloudapp.azure.com
